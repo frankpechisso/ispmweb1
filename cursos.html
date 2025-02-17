@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cursos</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif
+        }
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        header{
+    background-color: rgb(0, 115, 50);
+    padding-top: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
+    
+}
+header h1{
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+
+
+}
+header img{
+    display: block;
+    margin: auto;
+    height: 100px;
+}
+header nav{
+padding: 15px;
+}
+header nav a{
+    text-decoration:none;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px;
+
+
+}
+header nav a:hover{
+    background-color: rgb(69, 163, 240);
+    border-radius: 6px;
+    color: rgb(0, 0, 0);
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.452);
+}
+    main{
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    background-color: white;
+    text-indent: 30px;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
+}
+ul{
+    padding: 10px;
+    list-style-position: inside;
+    font-weight: bold;
+}
+main li{
+    background-color: rgb(112, 218, 112);;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow:  3px 2px 6px rgba(0, 0, 0, 0.37);
+
+}
+main ul li:hover{
+    background-color: rgb(96, 192, 96);
+}
+main section article h2{
+    background-color: rgba(0, 81, 152);
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    color: white;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: rgb(0, 115, 50);
+    margin-top: 150px;
+    padding: 10px;
+}
+footer p{
+    font-weight: bold;
+}
+
+:root{
+    --font-padrao: Arial, Helvetica, sans-serif;
+    --font-destaque: cursive;
+    --Verde: #007332;
+    --Amarelo: #c1db2c;
+    --Azul: #002575;
+    --Branco:#ffffff;
+    --brack:#000000;
+    --redNF:#ff0000b2;
+}
+
+.siteNF{
+    background-color: var(--redNF);
+
+}
+.siteNF:hover{
+    background-color: #00000044;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <img src="imagens/logo da ispm.png" alt="logo da zootecnia" >
+    <h1>Instituto Superior Politecnico de Manica</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="cursos.html">Cursos</a>
+        <a href="ajuda.html">ajuda</a>
+        <a href="sobrenos.html">Sobre nos</a>
+    </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h2>Cursos da Faculdade de Engenharia</h2>
+                <ul>
+                    <li><a href="cursos/zootecnia.html">Engenharia zootecnia</a></li>
+                    <li class="siteNF">Engenharia Florestal</li>
+                    <li class="siteNF">Engenharia Agricola</li>
+                    <li class="siteNF">Tecnologia de Processamento Alimentar</li>
+                </ul>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Site desenvolvido por Frank Pechisso</p>
+       </footer>
+</body>
+</html>
