@@ -49,8 +49,7 @@ header nav a:hover{
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.452);
 }
     main{
-    max-width: 1000px;
-    min-width: 320px;
+    width: 90vw;
     margin: auto;
     background-color: white;
     text-indent: 30px;
@@ -58,11 +57,21 @@ header nav a:hover{
     border-radius: 0px 0px 10px 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);}
 
-    a{
+    a#linkexcel{
         background-color: rgb(19, 112, 59);
         color: rgb(255, 255, 255);
         text-decoration: none;
         padding: 5px;
+        border-radius: 5px;
+        margin-left: 5px;
+    }
+    a#linkpdf{
+        background-color: rgb(20, 30, 128);
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        padding: 5px;
+        border-radius: 5px;
+        margin-left: 5px;
     }
 
     p{
@@ -70,6 +79,7 @@ header nav a:hover{
     }
     #plink{
         background-color: rgba(156, 223, 200, 0.932);
+        margin-bottom: 2px;
     }
 
     footer{
@@ -106,12 +116,15 @@ footer p{
     <main>
         <section>
             <h2>Registro de Notas</h2>
-            <p>Registro de notas em Excel</p>
+            <p>Registro de notas de Frank Pechisso</p>
             <form action="">
                 <p id="plink">
-                    <a href="arquivos/planilha de notas.xlsx" id="ibaixar">Click aqui</a> <label for="ibaixar">para Baixar</label>
+                    Para baixar em formato excel<a href="arquivos/planilha de notas.xlsx" id="linkexcel">Click aqui</a>
+
                 </p>
-                
+                <p id="plink">
+                    Para baixar em formato pdf <a id="linkpdf" href="arquivos/Planilha de notas.pdf">Click aqui</a>
+                </p>
             </form>
         </section>
         
